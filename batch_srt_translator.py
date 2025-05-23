@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed # Added for para
 import threading # For tqdm lock if needed, though often not strictly necessary for basic use
 
 # --- Configuration (can be overridden by args) ---
-OLLAMA_API_URL = "http://ai.mythx.nl/api/generate" # Your custom URL
+OLLAMA_API_URL = "http://127.0.0.1:11434/api/generate" # Your custom URL
 DEFAULT_OLLAMA_MODEL = "qwen3:30b-a3b" # Your specified model
 REQUEST_TIMEOUT = 180  # Increased timeout for potentially longer texts
 
