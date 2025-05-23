@@ -34,10 +34,12 @@ tqdm
 
 
 ### Configuration
+
+```txt
 OLLAMA_API_URL = "http://127.0.0.1:11434/api/generate" # Your ollama url
 DEFAULT_OLLAMA_MODEL = "qwen3:30b-a3b" # (I use this one 3090 ti GPU)
 REQUEST_TIMEOUT = 180  # Increased timeout for potentially longer texts
-
+```
 
 ---
 
