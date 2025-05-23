@@ -97,7 +97,7 @@ movies/
 python batch_srt_translator.py "C:\Users\pc\Desktop\srt\movie" "nederlands" "nl" --workers 3
 ```
 
-This will translate all `.srt` files in subfolders under `./movies/` from English to Spanish using the Ollama API.
+This will translate all `.srt` files in subfolders under `./movies/` from English to Dutch using the Ollama API.
 
 ---
 
@@ -106,8 +106,8 @@ This will translate all `.srt` files in subfolders under `./movies/` from Englis
 ```text
 [Thread-140423155242688 | MOVIE: MovieA] --- Starting processing ---
   Found preferred source SRT (English): sub_en.srt
-    Translating sub_en.srt (154 lines) to Spanish...
-  [SUCCESS] Translated SRT saved to: MovieA/sub_es.srt
+    Translating sub_en.srt (154 lines) to Dutch...
+  [SUCCESS] Translated SRT saved to: MovieA/sub_nl.srt
 [Thread-140423155242688 | MOVIE: MovieA] --- Finished processing ---
 ```
 
