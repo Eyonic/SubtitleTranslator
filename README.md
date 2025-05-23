@@ -37,7 +37,7 @@ tqdm
 ## 📦 Usage
 
 ```bash
-python batch_srt_translator.py "C:\Users\pc\Desktop\srt\movie" "nederlands" "nl" --workers 3
+python batch_srt_translator.py "C:\Users\pc\Desktop\srt\movies" "nederlands" "nl" --workers 3
 ```
 
 ### Positional Arguments
@@ -94,7 +94,7 @@ movies/
 ## 🛠 Example
 
 ```bash
-python batch_srt_translator.py "C:\Users\pc\Desktop\srt\movie" "nederlands" "nl" --workers 3
+python batch_srt_translator.py "C:\Users\pc\Desktop\srt\movies" "nederlands" "nl" --workers 3
 ```
 
 This will translate all `.srt` files in subfolders under `./movies/` from English to Dutch using the Ollama API.
