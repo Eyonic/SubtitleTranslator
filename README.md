@@ -94,7 +94,7 @@ movies/
 ## 🛠 Example
 
 ```bash
-python translate_subtitles.py ./movies Spanish es --source_language_name English --source_language_code en --force_translate
+python batch_srt_translator.py "C:\Users\pc\Desktop\srt\movie" "nederlands" "nl" --workers 3
 ```
 
 This will translate all `.srt` files in subfolders under `./movies/` from English to Spanish using the Ollama API.
