@@ -64,7 +64,7 @@ python batch_srt_translator.py "C:\Users\pc\Desktop\srt\movies" "nederlands" "nl
 | `--source_language_name`      | Name of the source language (default: `"English"`)                          |
 | `--source_language_code`      | Code of the source language (default: `"en"`)                               |
 | `--model`                     | Ollama model to use (default: `"qwen3:30b-a3b"`)                            |
-| `--ollama_url`                | URL to the Ollama API (default: `"http://ai.mythx.nl/api/generate"`)       |
+| `--ollama_url`                | URL to the Ollama API (default: `"http://127.0.0.1:11434/api/generate"`)       |
 | `--force_translate`           | Force re-translation even if output file exists                             |
 | `--skip_if_target_exists`     | Skip processing if target file exists (default: `True`)                     |
 | `--no-skip_if_target_exists`  | Disable skipping if target file exists                                      |
