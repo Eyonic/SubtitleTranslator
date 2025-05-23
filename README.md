@@ -37,7 +37,7 @@ tqdm
 ## 📦 Usage
 
 ```bash
-python translate_subtitles.py <movies_root_dir> <target_language_name> <target_language_code> [OPTIONS]
+python batch_srt_translator.py "C:\Users\pc\Desktop\srt\movie" "nederlands" "nl" --workers 3
 ```
 
 ### Positional Arguments
@@ -69,10 +69,10 @@ python translate_subtitles.py <movies_root_dir> <target_language_name> <target_l
 movies/
 ├── MovieA/
 │   ├── sub_en.srt
-│   └── sub_fr.srt (created)
+│   └── sub_nl.srt (created)
 ├── MovieB/
 │   ├── sub_en.srt
-│   └── sub_es.srt (created)
+│   └── sub_nl.srt (created)
 ```
 
 ---
